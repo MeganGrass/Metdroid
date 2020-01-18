@@ -11,7 +11,7 @@ Metdroid is a commandline utility used to disassemble savegame data for Metroid 
 
 Please view "usage.txt" for usage information.
 
-#Credit
+# Credit
 Very special thanks to John David Ratliff, phonymike and emuWorks for the Super Metroid checksum algorithm.
 
 Very special thanks to x0_000 for the Metroid Zero Mission and Metroid Fusion checksum algorithm.
