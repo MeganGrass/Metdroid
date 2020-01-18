@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="System">
+      <UniqueIdentifier>{972570af-7d03-4e72-b652-588b99dbb0c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Windows">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Windows\Icon">
+      <UniqueIdentifier>{4d46ce47-78a6-4f1c-8443-a82b6fdff5a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Windows\Resource">
+      <UniqueIdentifier>{20227724-e80b-4f3c-b883-25650943cda8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Metroid">
+      <UniqueIdentifier>{9620a90f-e794-45b3-a443-d04c898b6ba6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Metroid\Super">
+      <UniqueIdentifier>{52dee054-13cd-4257-89a8-3c61e2ca6b8d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Metroid\Fusion">
+      <UniqueIdentifier>{628eacd9-83b3-4fd5-8d9e-fde2b0e04ba1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Metroid\Zero">
+      <UniqueIdentifier>{72ba5dc7-d31f-4b9d-a3cf-04978186997e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h">
+      <Filter>Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Windows\Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h" />
+    <ClInclude Include="..\..\System\system.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Metroid\super\sram.h">
+      <Filter>Metroid\Super</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Metroid\fusion\fsram.h">
+      <Filter>Metroid\Fusion</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Metroid\zero\zsram.h">
+      <Filter>Metroid\Zero</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Metdroid.ico">
+      <Filter>Windows\Icon</Filter>
+    </Image>
+    <Image Include="small.ico">
+      <Filter>Windows\Icon</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Metdroid.rc">
+      <Filter>Windows\Resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="..\..\System\configuration.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\System\file.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\System\string.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\System\type.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Metroid\super\sram.cpp">
+      <Filter>Metroid\Super</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Metroid\fusion\fsram.cpp">
+      <Filter>Metroid\Fusion</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Metroid\zero\zsram.cpp">
+      <Filter>Metroid\Zero</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

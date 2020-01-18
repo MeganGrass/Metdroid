@@ -1,0 +1,26 @@
+These commands are necessary for Metdroid to work properly.
+
+Commands are not case sensitive.
+
+Filenames are not required. The app will instead prompt the user with a Windows "Open File.." dialog.
+
+------------------------
+
+SUPER		Set game version to "Super Metroid"
+
+FUSION		Set game version to "Metroid Fusion"
+
+ZERO		Set game version to "Metroid Zero Mission"
+
+UPDATE		Update the SRAM checksum -- for use after extract/import and modification
+
+EXPORT <Value>	Export data from <Value> slot (0-2)
+
+IMPORT <Value>	Import data to <Value> slot (0-2)
+
+CLEAR <Value>	Clear data in <Value> slot (0-2) -- cannot be undone!
+
+DIS		Disassemble data to human-readable format (.txt) -- WIP, minimal Zero support only
+
+------------------------
+
